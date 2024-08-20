@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.box-part{
+    margin: 30px 30px 30px 30px;
+    border: 1px solid black;
+    padding: 40px 20px;
+    width: 50%;
+    min-width: auto;
+}

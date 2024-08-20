@@ -1,0 +1,16 @@
+[build]
+  # Command to build your project with Vite
+  command = "npm run build"
+
+  # Directory with the built files
+  publish = "dist"
+[[redirects]]
+  # Redirects requests to /api/* to your backend URL
+  from = "/*"
+  to = "https://fsd-be-url.onrender.com/:splat"
+  status = 200
+[[redirects]]
+  # Redirects all requests to /index.html (React Router's entry point)
+  from = "/*"
+  to = "/index.html"
+  status = 200
